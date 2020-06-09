@@ -38,7 +38,7 @@ function addItem(text) {
 }
 function removeItem() {
     //获取 li
-    var item = this.parentNode
+    var item = this.parentNode.parentNode
     // 获取 ul
     var parent = item.parentNode
     parent.removeChild(item)
